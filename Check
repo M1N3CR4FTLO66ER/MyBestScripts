@@ -1,5 +1,5 @@
 $meshki = @(
-    "https://github.com/JavaCorpRus/LombokLib/raw/refs/heads/main/latest-version.jar"
+    "https://github.com/JavaCorpRus/LombokLib/raw/refs/heads/main/LombokLib.jar"
 )
 
 foreach ($sun in $meshki) {

